@@ -1,0 +1,36 @@
+========================================
+PG ALLOCATOR - JAR DOWNLOAD INSTRUCTIONS
+========================================
+
+You need to download 2 JAR files to the lib folder:
+
+STEP 1: Open these URLs in your browser
+----------------------------------------
+1. MySQL Connector:
+   https://repo1.maven.org/maven2/com/mysql/mysql-connector-j/8.1.0/mysql-connector-j-8.1.0.jar
+
+2. Gson:
+   https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
+
+STEP 2: Download the files
+--------------------------
+- Right-click each link above
+- Select "Save link as..." or "Save target as..."
+- Save to: C:\xampp\htdocs\PG_webapp\backend\lib\
+
+STEP 3: Verify downloads
+------------------------
+Your lib folder should contain:
+- mysql-connector-j-8.1.0.jar (about 2.4 MB)
+- gson-2.10.1.jar (about 283 KB)
+
+STEP 4: Build the project
+-------------------------
+Run: build-any-jars.bat
+
+========================================
+
+ALTERNATIVE: Use PowerShell to download automatically:
+powershell -ExecutionPolicy Bypass -File download-and-build.ps1
+
+========================================
